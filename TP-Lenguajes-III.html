@@ -24,7 +24,13 @@
             font-weight: bold;
         }
         .card{
-                margin: 20px auto;
+            margin: 20px auto;
+            transition: box-shadow 0.3s ease;
+            box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
+            cursor: pointer;
+        }
+        .card:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
         }
         .card-header, .card-body {
             background-color: rgba(157, 170, 181, 0.8);
@@ -65,6 +71,7 @@
                     <li class="nav-item"><a class="nav-link" href="#s2">Memoria RAM</a></li>
                     <li class="nav-item"><a class="nav-link" href="#s3">Disco Duro</a></li>
                     <li class="nav-item"><a class="nav-link" href="#s4">Tarjeta Gráfica</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#s5">Fuente de Alimentación</a></li>
                 </ul>
             </div>
         </div>
@@ -135,7 +142,16 @@
             </div>
         </div>
     </section>
-    
+    <section id="s5">
+        <div class="card" style="width: 18rem;">
+            <h3 class="card-header">Fuente de Alimentación</h3>
+            <img src="https://png.pngtree.com/png-vector/20231224/ourmid/pngtree-black-850w-power-supply-unit-with-io-switch-png-image_11217802.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">La fuente de alimentación (PSU) es el componente que se encarga de convertir la corriente alterna (AC) proveniente de la toma de corriente, a una corriente continua (CC) de menor voltaje y la distribuye a los demás componentes de la computadora.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="text-center">
             <p>Tp 2 Lenguajes III - Comisión 2 </p>
